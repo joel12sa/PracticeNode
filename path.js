@@ -1,8 +1,9 @@
 const { stat, Stats } = require('node:fs')
 const fs = require('node:fs/promises')
 const path = require('node:path')
+const pc= require('picocolors')
 
-// fs.readdir('.',(err,files)=>{
+// fs.readdcir('.',(err,files)=>{
 //     if(err){
 //         console.log('Error de direccion de archivos')
 //     }
