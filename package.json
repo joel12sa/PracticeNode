@@ -1,0 +1,26 @@
+{
+  "name": "practicenode",
+  "version": "1.0.0",
+  "description": "New init in node with npm",
+  "main": "file-read-promise-2.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joel12sa/PracticeNode.git"
+  },
+  "keywords": [
+    "node",
+    "npm"
+  ],
+  "author": "Joel Sasig",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joel12sa/PracticeNode/issues"
+  },
+  "homepage": "https://github.com/joel12sa/PracticeNode#readme",
+  "dependencies": {
+    "picocolors": "^1.1.1"
+  }
+}
