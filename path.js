@@ -37,7 +37,7 @@ async function listar(){
         const fileType = isDirectory ? 'd' : 'f'
         const fileSize = filestat.size
         const fileModify= filestat.mtime.toLocaleDateString()
-        return `${fileType} ${file} ${fileSize} bytes ${fileModify}`;
+        return `${pc.bgMagenta(fileType)} ${file} ${fileSize} bytes ${fileModify}`;
     })
 
     const filesInfo=await Promise.all(filesPromises)
